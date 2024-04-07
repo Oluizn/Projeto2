@@ -82,3 +82,4 @@ void imprimir_contato(lista *li, char nome[30]){
     int x = busca_sequencia(li, nome);  // Set X to the list position value
     printf("Nome: %s\nTelefone: %d\nEmail: %s", li->dados[x].name, li->dados[x].phone, li->dados[x].email);     // print the specific target
 }
+//teste
